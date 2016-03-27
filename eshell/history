@@ -1,0 +1,255 @@
+ls
+ll 
+ls
+ll 
+ls -a
+ls
+ls -a
+ll 
+ls
+ll 
+vim
+alias ll 'ls -l $*'
+ll
+vim
+ls
+ll
+vim
+ll
+ls
+la
+ll
+vim .zshrc 
+ex ~/dotfiles/zshrc
+ec ~/dotfiles/zshrc
+alias vim 'for i in ${eshell-flatten-list $*} {find-file $i}'
+vim ~/dotfiles/zshrc
+vim .zshrc 
+alias vim 'find-file $1'
+vim ~/dotfiles/zshrc
+vim custom.el 
+vim ~/dotfiles/zshrc
+cd .spacemacs.d/
+vim init.el 
+ls 
+ll
+la
+ff KantAnimals.md
+d
+d
+d
+d
+d
+ff KantAnimals.md
+ff KantAnimals
+d
+d
+d
+d
+vim ~/dotfiles/zshrc
+ff KantAnimals
+ff 'KantAnimals'
+vim KantAnimals.md
+d
+d
+d
+dired
+dired
+ll
+cd
+ll
+la
+ll
+ls
+la
+dired
+dired
+dired:
+dired ~
+alias d dired $+
+d
+alias dired
+alias d 'dired $+'
+d
+find-file KantAnimals.md
+find-file ~/dotfiles/zshrc
+vim ~/dotfiles/zshrc
+d
+emacs --version
+ls
+ll
+la
+ls
+cd
+ls
+ll
+la
+cd
+ls
+pandoc -s --filter pandoc-citeproc BJHP_Report.md -o BJHP_Report.txt
+ec BJHP_Report.txt 
+plndoc 
+ls
+ls
+ks
+cd
+ls
+ll
+la
+zgen
+ls
+ll
+la
+cd
+l
+ls
+echo $PATH
+ls -CF
+ls
+ls
+ls
+cd
+FZF
+ls
+pandoc -s  -N -V mainfont=Optima --latex-engine=xelatex --smart --template=/Users/Roambot/.pandoc/pandoc-templates/default.latex --bibliography=/Users/Roambot/Dropbox/Work/Master.bib http://ndpr.nd.edu/news/23953/?id=15586 -o wanderer.pdf
+open wanderer.pdf 
+pandoc -s  -V mainfont=Optima --latex-engine=xelatex --smart --template=/Users/Roambot/.pandoc/pandoc-templates/default.latex --bibliography=/Users/Roambot/Dropbox/Work/Master.bib http://ndpr.nd.edu/news/23953/?id=15586 -o wanderer.pdf
+open wanderer.pdf 
+brew search openemu
+bi openemu
+brew cask info openemu
+brew cask install openemu
+brew linkapps openemu
+brew uninstall --force brew-cask; brew update
+brew uninstall openemu
+brew cask uninstall openemu
+brew cask install openemu
+open ~/Applications/OpenEmu.app/
+pbpaste | pandoc -f markdown -t org | pbcopy
+pbpaste | pandoc -f markdown -t org | pbcopy
+pbpaste | pandoc -f markdown -t org | pbcopy
+pbpaste | pandoc -f markdown -t org | pbcopy
+pbpaste | pandoc -f markdown -t org | pbcopy
+pbpaste | pandoc -f html -t org | pbcopy
+pbpaste | pandoc -f html -t org | pbcopy
+pbpaste | pandoc -f html -t org | pbcopy
+pbpaste | pandoc -f html -t org | pbcopy
+pandoc -f html -t org /Users/Roambot/Desktop/Arnauld 1683 Logic or the Art of Thinking.html
+pandoc -f html -t org '/Users/Roambot/Desktop/Arnauld 1683 Logic or the Art of Thinking.html'	
+pandoc -f html -t org '/Users/Roambot/Desktop/Arnauld 1683 Logic or the Art of Thinking.html'	
+pandoc -s  -N -V mainfont=Optima --latex-engine=xelatex --smart --template=/Users/Roambot/.pandoc/pandoc-templates/default.latex --bibliography=/Users/Roambot/Dropbox/Work/Master.bib http://www.gamefaqs.com/genesis/526675-phantasy-star-ii/faqs/9465 -o phantasy_star_walkthrough.pdf
+pandoc -s -V mainfont=Optima --latex-engine=xelatex --smart --template=/Users/Roambot/.pandoc/pandoc-templates/default.latex --bibliography=/Users/Roambot/Dropbox/Work/Master.bib http://www.gamefaqs.com/genesis/526675-phantasy-star-ii/faqs/9465 -o phantasy_star_walkthrough.pdf
+pandoc http://www.gamefaqs.com/genesis/526675-phantasy-star-ii/faqs/9465 PSW.pdf
+pandoc http://www.gamefaqs.com/genesis/526675-phantasy-star-ii/faqs/9465 -o PSW.pdf
+open PSW.pdf 
+brew install ecm
+cd
+cd Downloads/
+ls
+./unecm Final\ Fantasy\ VII\ \(E\)\ \(Disc\ Final Fantasy VII (E) (Disc 3) [SCES-20867].bin.ecm
+./unecm Final\ Fantasy\ VII\ \(E\)\ \(Disc\ Final Fantasy VII (E) (Disc 3) [SCES-20867].bin.ecm
+pandoc -s  -N -V mainfont=Optima --latex-engine=xelatex --smart --template=/Users/Roambot/.pandoc/pandoc-templates/default.latex --bibliography=/Users/Roambot/Dropbox/Work/Master.bib -o 
+pbpaste | pandoc -f markdown -t org | pbcopy
+pbpaste | pandoc -f markdown -t org | pbcopy
+pbpaste | pandoc -f markdown -t org | pbcopy
+pbpaste | pandoc -f markdown -t org | pbcopy
+echo '	pbpaste'
+echo 'pbpaste'
+echo pbpaste
+pandoc -s  -N -V mainfont=Optima --latex-engine=xelatex --smart --template=/Users/Roambot/.pandoc/pandoc-templates/default.latex --bibliography=/Users/Roambot/Dropbox/Work/Master.bib -o KantAnimals.pdf KantAnimals.md
+pandoc -s  -N -V mainfont=Optima --latex-engine=xelatex --smart --template=/Users/Roambot/.pandoc/pandoc-templates/default.latex --bibliography=/Users/Roambot/Dropbox/Work/Master.bib -o KantAnimals.pdf KantAnimals.md
+open KantAnimals.pdf 
+workon pelican-web
+ls
+cd
+ls
+ls
+la
+ec MYemacs.d/
+20 : 16.01.1970        Lecture 4 Outline – Meditation 2
+exjl
+pandoc -f docx -t org "/Users/Roambot/Downloads/Malebranche Paper.doc" | pbpaste
+ls
+pandoc -f docx -t org "/Users/Roambot/Downloads/Malebranche Paper.doc" | pbcopy
+pandoc -s -o "/Users/Roambot/Downloads/Malebranche Paper.org" "/Users/Roambot/Downloads/Malebranche Paper.doc"
+pandoc -s -o "/Users/Roambot/Downloads/Malebranche Paper.org" "/Users/Roambot/Downloads/Malebranche Paper.docx"
+pandoc -s -o "/Users/Roambot/Downloads/Malebranche Paper.md" "/Users/Roambot/Downloads/Malebranche Paper.docx"
+which pandoc 
+pandoc --v
+pandoc -v
+pandoc -s -o "/Users/Roambot/Downloads/Malebranche Paper.org" "/Users/Roambot/Downloads/Malebranche Paper.docx"
+ec /Users/Roambot/Downloads/Malebranche Paper.org
+refresh
+ec "/Users/Roambot/Downloads/Malebranche Paper.org"
+pbcopy | pandoc -f markdown -t org | pbpaste
+pbcopy | pandoc -f markdown -t org | pbpaste
+pbpaste | pandoc -f markdown -t org | pbcopy
+exit
+ls
+echo $PATH
+ll
+cd mylayers/
+ls
+workon pelican-web
+cd
+workon pelican-web 
+ls
+workon pelican-web 
+workon pelican-web
+cd bin/pelican-web/
+ls
+echo $PATH
+make devserver 
+make devserver
+workon pelican-web 
+make devserver
+./develop_server.sh stop
+ls
+make devserver
+./develop_server.sh stop
+make clean
+make devserver
+./develop_server.sh stop
+make devserver
+./develop_server.sh stop
+deactivate && exit
+workon pelican-web 
+ls
+make devserver
+ls
+cd
+workon pelican-web
+ls
+cd bin/pelican-web/
+ls
+make devserver
+./develop_server.sh stop
+deactivate && exit
+exit 
+workon pelican-web
+pbpaste | pandoc -f markdown -t org | pbcopy
+iconv -t utf-8 pbpaste | pandoc -f markdown -t org | pbcopy
+pbpaste | iconv -t utf-8 | pandoc -f markdown -t org | pbcopy
+pbpaste | iconv -f utf-8 -t -utf-8 -c | pbcopy
+pbpaste | pandoc -f markdown -t org | pbcopy
+iconv -l
+pbpaste | iconv -f utf-8 -t utf-8 -c | pbcopy
+pbpaste | pandoc -f markdown -t org | pbcopy
+ex
+pandoc -f html -t org "	/Users/Roambot/Desktop/lolordo2005 Descartes and Malebranche on Thought, Sensation and the Nature of the Mind.html"
+pandoc -f html -t org "/Users/Roambot/Desktop/lolordo2005 Descartes and Malebranche on Thought, Sensation and the Nature of the Mind.html"
+pandoc -f html -t org "/Users/Roambot/Desktop/lolordo2005 Descartes and Malebranche on Thought, Sensation and the Nature of the Mind.html" | pbcopy
+..
+ls
+cd hilinenum/
+ls
+cp local/hilinenum.el ~/.spacemacs.d/mylayers/local/hilinenum.el
+ls
+..
+cd local/
+ls
+ec hilinenum.el 
+l
+ls
+d
+e
